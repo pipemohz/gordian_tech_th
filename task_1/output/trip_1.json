@@ -1,0 +1,33 @@
+{
+    "language": "en-US",
+    "passengers": [
+        {
+            "first_names": "Passenger",
+            "passenger_id": "6457d92a-2ae5-4ae9-ae95-149ac50c3ad1",
+            "surname": "1",
+            "type": "adult"
+        }
+    ],
+    "product_status": {
+        "bag": {
+            "errors": [
+                {
+                    "description": "Could not cache bag products for the requested search: MCO*2023-07-30T20:15*NK*555*MSY*2023-07-30T21:00.",
+                    "title": "bag_cache_unavailable"
+                }
+            ],
+            "status": "failed"
+        },
+        "seat": {
+            "errors": [
+                {
+                    "description": "Departure time for flight is too soon for seat search",
+                    "title": "departure_too_soon"
+                }
+            ],
+            "status": "failed"
+        }
+    },
+    "search_id": "b991410d-bc92-4b3b-8f3c-de47cec4a908",
+    "status": "failed"
+}

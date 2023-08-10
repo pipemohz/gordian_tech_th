@@ -1,0 +1,34 @@
+{
+    "language": "en-US",
+    "passengers": [
+        {
+            "date_of_birth": "1999-05-01",
+            "first_names": "Azucena",
+            "passenger_id": "36a103c6-c493-4b0e-bba0-67de504f1020",
+            "surname": "M",
+            "type": "adult"
+        }
+    ],
+    "product_status": {
+        "bag": {
+            "errors": [
+                {
+                    "description": "Could not cache bag products for the requested search: OAK*2023-08-05T06:35*NK*1349*LAX*2023-08-05T08:04.",
+                    "title": "bag_cache_unavailable"
+                }
+            ],
+            "status": "failed"
+        },
+        "seat": {
+            "errors": [
+                {
+                    "description": "Departure time for flight is too soon for seat search",
+                    "title": "departure_too_soon"
+                }
+            ],
+            "status": "failed"
+        }
+    },
+    "search_id": "c7576df2-ec02-402c-9d4d-46a9bd7433fa",
+    "status": "failed"
+}

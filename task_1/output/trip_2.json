@@ -1,0 +1,39 @@
+{
+    "language": "en-GB",
+    "passengers": [
+        {
+            "date_of_birth": "1993-07-20",
+            "first_names": "PASSENGER_FIRST_NAME",
+            "passenger_id": "342d4e94-26cc-42aa-86ef-8cb4154fe817",
+            "surname": "PASSENGER_LAST_NAME",
+            "type": "adult"
+        },
+        {
+            "date_of_birth": "1993-07-20",
+            "first_names": "PASSENGER_FIRST_NAME",
+            "passenger_id": "ff99a697-d1b4-4858-b589-676ba29119af",
+            "surname": "PASSENGER_LAST_NAME",
+            "type": "adult"
+        },
+        {
+            "date_of_birth": "2017-07-20",
+            "first_names": "PASSENGER_FIRST_NAME",
+            "passenger_id": "71ec6d06-37c0-40ca-8230-e75ecd3a973a",
+            "surname": "PASSENGER_LAST_NAME",
+            "type": "child"
+        }
+    ],
+    "product_status": {
+        "seat": {
+            "errors": [
+                {
+                    "description": "Departure time for flight is too soon for seat search",
+                    "title": "departure_too_soon"
+                }
+            ],
+            "status": "failed"
+        }
+    },
+    "search_id": "184956c5-af77-487b-9a3d-f08d5f3b36b7",
+    "status": "failed"
+}
